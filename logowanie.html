@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pl-PL" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="witryna sieci sklepu z jedzeniem - typu fast food.">
+    <meta name="keywords" content="projekt,sklep,sklep z jedzeniem,projekt sklepu, jedzenie, fast food">
+    <meta name="author" content="Wiktor Tatarynowicz">
+    <link rel="icon" type="image/x-icon" href="zdjęcia/hamb.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0495921f2.js" crossorigin="anonymous"></script>
+    <title> FOOD WORLD. - LOGOWANIE</title>
+</head>
+<body id="body">
+    <header id="header">
+        <div class="drop">
+            <a id="bars" class="fas fa-bars"></a>
+            <div class="hamburger">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="blog.html">Blog</a>
+                <a href="kontakt.html" class="end">Kontakt</a>
+            </div>
+        </div>
+        <span class="logo"> <a href="index.html">Food world <span class="punkt">.</span></a> </span>
+        <nav>
+            <div class="drop">
+                <button id="home">Home</button>
+                <div class="home_menu">
+                    <a href="index.html#start">Zestawy dnia</a>
+                    <a href="index.html#o_nas">O nas</a>
+                    <a href="index.html#dowoz">Dowóz</a>
+                    <a href="index.html#aktualnosci">Aktualności</a>
+                    <a href="index.html#opinie">Opinie</a>
+                    <a href="index.html#okazje" class="last">okazje w apce</a>
+                </div>
+            </div>
+            <a href="menu.html"><div>menu</div></a>
+            <a href="blog.html"><div>blog</div></a>
+            <a href="kontakt.html"><div>kontakt</div></a>
+        </nav>
+        <div class="icons">
+            <div class="drop">
+                <a class="fa-sharp fa-solid fa-cart-shopping drop_shop" id="shopp"></a>
+                <div class="shop_menu">
+                    <h2>Koszyk</h2>
+                    <div class="koszyk">
+                        Nie masz jeszcze żadnych produktów w kosztyku 
+                    </div>
+                </div>
+            </div>
+            <a class="fa-solid fa-user" id="log" href="logowanie.html"></a>
+            <a id="clock" class="fa-solid fa-clock" href="zegar.html"></a>
+        </div>
+
+    </header> 
+
+    <main id="main">
+
+            <p class="tytul4">Konto</p>
+            <p class="tytul3">Dołącz do świata FOOD WORLD</p>
+
+      <div class="box" id="box_log">
+        <section class="blok"  id="contact">
+            <h1 class="blokh"> <span> Zarejestruj </span> się </h1>
+            <div class="r">
+                <form action="" method="post">
+                    <input type="text" placeholder="imię" class="f_box" id="name2" required>
+                    <input type="text" placeholder="nazwisko" class="f_box" id="surname" required>
+                    <input type="number" placeholder="wiek" class="f_box" min="1" max="120" id="age">
+                    <input type="email" placeholder="email" class="f_box" id="email2" required>
+                    <input type="text" placeholder="nazwa użytkownika" class="f_box" id="user" required>
+                    <input type="password" placeholder="hasło" class="f_box" required>
+                    <input type="password" placeholder="powtórz hasło" class="f_box" required>
+                    <div class="wrong_info"></div>
+                    <input type="button" value="Zarejestruj" class="btns" id="r_btns">
+                    <input type="reset" value="Usuń" class="btnr" id="r_btnr">
+                </form>
+            </div>
+        </section>
+        <section class="blok"  id="contact">
+          <h1 class="blokh"> <span> Zaloguj </span> się </h1>
+          <div class="r">
+              <form action="" method="post">
+                  <input type="text" placeholder="nazwa użytkownika" class="f_box" id="name" required>
+                  <input type="email" placeholder="email" class="f_box" id="email" required>
+                  <input type="password" placeholder="hasło" class="f_box" required>
+                  <label for="zaznacz">Zapamiętaj mnie</label>
+                  <input type="checkbox" id="zaznacz">
+                  <br>
+                  <div class="wrong_info"></div>
+                  <input type="button" value="Zaloguj się" class="btns" id="l_btns">
+                  <input type="reset" value="Usuń" class="btnr" id="l_btnr">
+              </form>
+          </div>
+      </section>
+    </div>
+    </main>
+
+    <footer id="footer">
+        <div class="end_log"><img src="zdjęcia/hamb.png" alt="hamburger">FOOD WORLD <span> .</span></div>
+        <div class="footer_info">
+            <div class="f_info">
+                <p>Szkoła</p>
+                <ul>
+                    <li>Zespół Szkół Komunikacji</li>
+                    <li>Technikum</li>
+                    <li>Fredry 13</li>
+                    <li>Ryszard Pyssa</li>
+                </ul>
+            </div>
+            <div class="f_info">
+                <p>Autor</p>
+                <ul>
+                    <li>Wiktor Tatarynowicz</li>
+                    <li>Klasa 2C</li>
+                    <li>grupa 2</li>
+                    <li>Projketowanie aplikacji Internetowych</li>
+                    <li>Projekt podsumowujący</li>
+                </ul>
+            </div>
+            <div class="f_info">
+                <p>Inspiracje</p>
+                <ul>
+                    <li>Youtube</li>
+                    <li>Kursyjs.pl</li> 
+                    <li>zdjęcia: Freepik</li>
+                    <li>Strona Pasibus</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_img">
+            <img src="zdjęcia/apple.jpg" alt="apple">
+            <img src="zdjęcia/play.jpg" alt="sklep play">
+            <img src="zdjęcia/fundusz.png" alt="fundusz">
+            <img src="zdjęcia/visa.png" alt="visa">
+        </div>
+    </footer>
+
+    <div id="panel-text">
+        <p>Narzędzia dostępności</p>
+        <a id="text_up">Zwiększ tekst</a>
+        <a id="text_down">Zmniejsz tekst</a>
+        <a id="kontrast">Kontrast</a>
+        <a id="szarosc">Skala szarości</a>
+        <a id="czcionka">Inna czcionka</a>
+        <a id="reset">Reset</a>
+    </div>
+    <div id="panel">
+        <img src="zdjęcia/accessible.png" alt=""><img>
+    </div>
+
+    <a class="up" href="#main">^</a>
+    <!--
+    <a class="down" href="#footer">down</a>-->
+
+    <div class="loader aktywacja"></div>
+    <div class="succes">
+        <div class="box_succes">
+            <h2>Pomyślnie zalogowano</h2>
+            <p>
+                Życzymy miłego dnia!!!
+            </p>
+            <input type="submit" value="OK" class="sukscess_btn" id="succes1">
+        </div>
+    </div>
+    <div class="succes_z">
+        <div class="box_succes">
+            <h2>Pomyślnie utworzono konto</h2>
+            <p>
+                Życzymy miłego dnia!!!
+            </p>
+            <input type="submit" value="OK" class="sukscess_btn" id="succes2">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+
+
+
+        let zestawy = document.querySelector(".zestawy");
+
+        
+        let succes = document.querySelector(".succes");
+        let succes_z = document.querySelector(".succes_z");
+        let succes1 = document.querySelector("#succes1");
+        let succes2 = document.querySelector("#succes2");
+        let btns = document.querySelectorAll(".btns");
+        /*
+        btns[1].addEventListener("click",()=>{
+            succes.style.display="flex";
+        })
+        btns[0].addEventListener("click",()=>{
+            succes_z.style.display="flex";
+        })
+        
+        succes1.addEventListener("click",()=>{
+            if(succes.style.display=="flex"){
+                succes.style.display="none";
+                console.log("Aaa")
+            }
+            else{
+                succes.style.display="flex";
+            }
+        })
+
+        succes2.addEventListener("click",()=>{
+            if(succes_z.style.display=="flex"){
+                succes_z.style.display="none";
+                console.log("Aaa")
+            }
+            else{
+                succes_z.style.display="flex";
+            }
+        })
+*/
+
+        let l_btn =document.querySelector("#l_btns");
+        let btnr =document.querySelector("#l_btnr");
+        let input_name = document.querySelector("#name");
+        let input_emial = document.querySelector("#email");
+
+        let wrong_info = document.querySelectorAll(".wrong_info");
+
+
+        let reg = /^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$/;
+
+        let tel_reg =/^(?:\(?\?)?(?:[-\.\(\)\s]*(\d)){9}\)?$/;
+
+        let erros =[];
+        l_btn.addEventListener("click", ()=>{
+            remove_border();
+            if(input_name.value.length<5){
+                erros.push("Nazwa musi skaładać się z minimum 5 liter")
+
+                input_name.style.borderColor ="red";
+            }
+            if (!reg.test(input_emial.value)) {
+               erros.push("Poprawnie wypełnij pole z emailem");
+    
+               input_emial.style.borderColor ="red";
+            }
+
+            if(erros.length==0){
+                input_name.value="";
+                input_emial.value="";
+                wrong_info[1].style.display="none";
+                succes.style.display="flex";
+                
+
+
+                succes1.addEventListener("click",()=>{
+                    if(succes.style.display=="flex"){
+                        succes.style.display="none";
+                        console.log("Aaa")
+                    }
+                    else{
+                        succes.style.display="flex";
+                    }
+                })                
+            }
+            else{
+
+                let ul =document.createElement("ul");
+                let h3 =document.createElement("h3");
+                let wrong_box = document.createElement("div");
+                h3.innerText="Przed wysłaniem proszę poprawić błędy:";
+                erros.forEach(element => {
+                    let li =document.createElement("li");
+                    li.innerText = element;
+                    ul.append(li);
+                    console.log(element)
+                });
+
+                wrong_box.append(h3);
+                wrong_box.append(ul);
+                wrong_info[1].append(wrong_box);
+                wrong_info[1].style.display="block";
+                erros.length =0;
+                if(wrong_info[1].children.length==2){
+                    wrong_info[1].children[0].remove();
+                }   
+            } 
+
+
+        })
+        btnr.addEventListener("click", ()=>{
+            input_name.value="";
+            input_emial.value="";
+            wrong_info[1].style.display="none";
+            remove_border();
+        })
+        let remove_border =()=>{
+            input_name.style.borderColor ="grey";
+            input_emial.style.borderColor ="grey";
+        }
+       
+
+
+        let r_btn =document.querySelector("#r_btns");
+        let r_btnr =document.querySelector("#r_btnr");
+        let input_name2 = document.querySelector("#name2");
+        let input_surname = document.querySelector("#surname");
+        let input_emial2 = document.querySelector("#email2");
+        let user =document.querySelector("#user");
+        let age =document.querySelector("#age");
+
+
+
+        let erros2 =[];
+        r_btn.addEventListener("click", ()=>{
+            remove_border2();
+            if(input_name2.value.length<=3){
+                erros2.push("Poprawnie wypełnij pole imie")
+
+                input_name2.style.borderColor ="red";
+            }
+            if(input_surname.value.length<=3){
+                erros2.push("Poprawnie wypełnij pole nazwisko")
+            
+                input_surname.style.borderColor ="red";
+            }
+            if(user.value.length<5){
+                erros2.push("Poprawnie wypełnij pole nazwa")
+                user.style.borderColor ="red";
+            }
+            if (!reg.test(input_emial2.value)) {
+               erros2.push("Poprawnie wypełnij pole z emailem");
+    
+               input_emial2.style.borderColor ="red";
+            }
+            if (age.value<0 && age.value>100) {
+               erros2.push("Poprawnie wypełnij pole wiek");
+               age.style.borderColor ="red";
+            }
+
+            if(erros2.length==0){
+                input_name2.value="";
+                input_surname.value="";
+                input_emial2.value="";
+                age.value="";
+                user.value="";
+                wrong_info[0].style.display="none";
+                succes_z.style.display="flex";
+                
+
+                succes2.addEventListener("click",()=>{
+                    if(succes_z.style.display=="flex"){
+                        succes_z.style.display="none";
+                        console.log("bbbb")
+                    }
+                    else{
+                        succes_z.style.display="flex";
+                    }
+                })               
+            }
+            else{
+
+                let ul =document.createElement("ul");
+                let h3 =document.createElement("h3");
+                let wrong_box2 = document.createElement("div");
+                h3.innerText="Przed wysłaniem proszę poprawić błędy:";
+                erros2.forEach(element => {
+                    let li =document.createElement("li");
+                    li.innerText = element;
+                    ul.append(li);
+                    console.log(element)
+                });
+
+                wrong_box2.append(h3);
+                wrong_box2.append(ul);
+                wrong_info[0].append(wrong_box2);
+                wrong_info[0].style.display="block";
+                erros2.length =0;
+                if(wrong_info[0].children.length==2){
+                    wrong_info[0].children[0].remove();
+                }   
+            } 
+
+
+        })
+        r_btnr.addEventListener("click", ()=>{
+            input_name2.value="";
+            input_surname.value="";
+            input_emial2.value="";
+            age.value="";
+            wrong_info[0].style.display="none";
+            remove_border2();
+        })
+        let remove_border2 =()=>{
+            input_name2.style.borderColor ="grey";
+            input_surname.style.borderColor ="grey";
+            input_emial2.style.borderColor ="grey";
+            age.style.borderColor ="grey";
+            user.style.borderColor="grey";
+        }
+
+
+
+    </script>
+</body>
+</html>
