@@ -20,6 +20,7 @@
     panel.addEventListener("click",()=>{
         panel_text.style.display=="none"?panel_text.style.display="block":panel_text.style.display="none";
     })
+    
 
     text_up.addEventListener("click",()=>{
         size+=10;
